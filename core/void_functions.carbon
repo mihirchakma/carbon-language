@@ -1,4 +1,4 @@
-package void_function api;
+package VoidFunction api;
 
 // void fuction, does not return anything
 fn Message() {
@@ -6,6 +6,6 @@ fn Message() {
 }
 
 fn Main() -> i32 {
-    Message(); // // Prints "This is a void function"
+    Message(); // Prints "This is a void function"
     return 0;
 }

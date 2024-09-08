@@ -1,4 +1,4 @@
-package printcommand api;
+package PrintCommand api;
 
 // return a String
 fn OutputText() -> String {
