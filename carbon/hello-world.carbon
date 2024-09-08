@@ -1,8 +1,6 @@
-package sample api
+package sample api;
 
-fn main() -> i32 {
-
+fn Main() -> i32 {
     Print("Hello, World!);
     return 0;
-
 }
