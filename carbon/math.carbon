@@ -1,4 +1,5 @@
 package Library;
+
 import Math;
 
 // Returns the smallest factor of `n` > 1, and
