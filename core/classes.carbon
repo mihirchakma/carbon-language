@@ -1,5 +1,8 @@
 package Sample api;
 
+// Classes can be used to create objects. 
+// Classes can have properties, methods and functions.
+
 class Point {
     var x: i32;
     var y: i32;
