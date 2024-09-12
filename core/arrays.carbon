@@ -2,6 +2,9 @@ package Sample api;
 
 fn Main() -> i32 {
 
+    // Arrays
+    // Arrays are data structures that hold multiple values. 
+    // When defining arrays, we specify the type and size
     var int_array: [i32; 5] = (23, 56, 34, 89, 63);
     var str_array: [String; 2] = ("Hello", "World");
 
