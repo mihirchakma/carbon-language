@@ -24,9 +24,9 @@ fn Main() -> i32 {
     var number2: i32 = 36;
 
     Print("Addition: {0}", Addition(number1, number2));
-    Print("Addition: {0}", Subtraction(number1, number2));
-    Print("Addition: {0}", Multiplication(number1, number2));
-    Print("Addition: {0}", Division(number1, number2));
+    Print("Subtraction: {0}", Subtraction(number1, number2));
+    Print("Multiplication: {0}", Multiplication(number1, number2));
+    Print("Division: {0}", Division(number1, number2));
 
     return 0;
 }
