@@ -31,21 +31,25 @@ fn PrintGlobalVar() {
 }
 
 // Multi-Line Strings
-// fn MultilineString() {
-//     var multi_line: auto = """My heart leaps up when I behold
-//     A rainbow in the sky
-//     So was it when my life began
-//     So is it now I am a man
-//     """;
-//
-//     Print(multi_line);
-// }
+fn MultilineString() {
+    var multi_line: String = '''
+        My heart leaps up when I behold,
+        A rainbow in the sky;
+        So was it when my life began,
+        So is it now I am a man.
+    ''';
+
+    Print(multi_line);
+}
 
 
 fn Main() -> i32 {
+
     OutputText();
     Message();
     AutoInfer();
     PrintGlobalVar();
+    MultilineString();
+    
     return 0;
 }
