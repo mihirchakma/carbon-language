@@ -42,7 +42,6 @@ fn MultilineString() {
     Print(multi_line);
 }
 
-
 fn Main() -> i32 {
 
     OutputText();
