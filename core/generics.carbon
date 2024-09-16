@@ -1,6 +1,6 @@
 package Sample api;
 
-// NOTE: Generic Not Implemented Yet properly
+// NOTE: Generic is Not Implemented Yet properly
 
 fn GetInt(x: i32) -> i32 {
     return x;
